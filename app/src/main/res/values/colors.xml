@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00897B</color>
+    <color name="colorPrimaryDark">#00695C</color>
+    <color name="colorAccent">#009688</color>
+    <color name="actionBarText">#009688</color>
+    <color name="bgBottomNavigation">#009688</color>
+    <color name="textwhite">#FFFF</color>
+    <color name="colorBlack">#000</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="textWhite">#FFFFFF</color>
+    <color name="green">#28A252</color>
+    <color name="orange">#E4AF10</color>
+    <color name="gray">#F4F7F8</color>
+    <color name="dark_gray">#aaacad</color>
+    <color name="gray1">#000000</color>
+    <color name="gray2">#000000</color>
+    <color name="black">#000000</color>
+    <color name="light_green">#74DF00</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFBF00</color>
+    <color name="brown">#900C3F</color>
+    <color name="blue">#4333ff</color>
+    <color name="divider">#727272</color>
+    <color name="contact_name">#333333</color>
+    <color name="contact_number">#8c8c8c</color>
+    <color name="text_color">#37474F</color>
+
+</resources>

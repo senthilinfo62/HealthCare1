@@ -1,0 +1,21 @@
+<resources>
+    <!-- Font size -->
+    <dimen name="font_size">12dp</dimen>
+    <dimen name="buttonHeight">40dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="profile_image">100dp</dimen>
+    <dimen name="fab_profile">30dp</dimen>
+    <dimen name="profile_name">15dp</dimen>
+    <dimen name="profile_about">13dp</dimen>
+    <dimen name="profile_meta">24dp</dimen>
+    <dimen name="profile_meta_label">10dp</dimen>
+    <dimen name="activity_margin1">20sp</dimen>
+    <dimen name="margin_padding_normal">16dp</dimen>
+    <dimen name="thumbnail">40dp</dimen>
+    <dimen name="row_padding">10dp</dimen>
+    <dimen name="contact_name">15dp</dimen>
+    <dimen name="contact_number">12dp</dimen>
+    <!-- Margin for restart button -->
+</resources>

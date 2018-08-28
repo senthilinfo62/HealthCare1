@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">HealthCare</string>
+    <string name="title_projects">Projects</string>
+    <string name="title_news">News</string>
+    <string name="title_gallery">Gallery</string>
+    <string name="title_support">Support</string>
+    <string name="title_contact">Contact</string>
+
+    <string name="title_aboutus">About us</string>
+    <string name="title_docprofile">Doctor Profile</string>
+    <string name="title_infra">Infrastructures</string>
+    <string name="title_facilities">Facilities</string>
+    <string name="title_offers">Offers</string>
+    <string name="title_complaints">Complaints</string>
+    <string name="title_feedback">Feedback</string>
+    <string name="title_contactus">Contact us</string>
+    <string name="title_enquiry">Enquiry</string>
+    <string name="cust_nameCS">Feedback</string>
+    <string name="submit_CS">Submit</string>
+    <string name="emailCharc">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890.@_</string>
+    <string name="textCharac">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789 \n\t0._</string>
+    <string name="numberCharac">1234567890+</string>
+    <string name="title_departments">Departments</string>
+    <string name="name">Enter your name</string>
+    <string name="email">Enter your email</string>
+    <string name="number">Enter your mobile number</string>
+    <string name="feedback">Enter your feedback</string>
+    <string name="nameerror">Enter a name</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="mobileerror">Enter a mobile</string>
+    <string name="feedbackerror">Enter a feedback</string>
+    <string name="infrastuturedefinition">When there is a perfect hospital infrastructures</string>
+    <string name="valid">Valid upto</string>
+    <string name="desc">description</string>
+    <string name="no_data_available">Nodata</string>
+    <string name="astersuccess">Aster\'s success story</string>
+    <string name="chairmenmessage">Chairman\'s meassage</string>
+    <string name="aboutaster">About aster</string>
+    <string name="facilitiesdefinition" />
+    <string name="offersdefinition" />
+    <string name="deptdefinition" />
+    <string name="corporate_address">Corporate Address</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="alternate_phone">Alternate Phone</string>
+    <string name="mail">Mail</string>
+</resources>
+
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/aHis_CL_ID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/hisJobList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/actionBarText" />
+
+    <TextView
+        android:id="@+id/hisJobempty_ID_TV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/no_data_available"
+        android:visibility="gone" />
+
+</android.support.design.widget.CoordinatorLayout>

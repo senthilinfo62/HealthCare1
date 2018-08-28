@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cs_ID_CL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:padding="10dp">
+
+    <ScrollView
+        android:id="@+id/cs_ID_SV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/new_cusID_LL"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/newcus_ID_ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="@string/textCharac"
+                        android:hint="@string/cust_nameCS"
+                        android:inputType="text|textNoSuggestions"
+                        android:maxLength="50"
+                        android:textSize="@dimen/font_size" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/new_cusID_LL1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/newcus_ID_ET1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="@string/textCharac"
+                        android:hint="@string/cust_nameCS"
+                        android:inputType="text|textNoSuggestions"
+                        android:maxLength="50"
+                        android:textSize="@dimen/font_size" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/new_cusID_LL2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/newcus_ID_ET2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="@string/textCharac"
+                        android:hint="@string/cust_nameCS"
+                        android:inputType="text|textNoSuggestions"
+                        android:maxLength="50"
+                        android:textSize="@dimen/font_size" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/new_cusID_LL3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/newcus_ID_ET3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="@string/textCharac"
+                        android:hint="@string/cust_nameCS"
+                        android:inputType="text|textNoSuggestions"
+                        android:maxLength="50"
+                        android:textSize="@dimen/font_size" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/submit_ID_RL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+                <Button
+                    android:id="@+id/subtmitCS_ID_BT"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/buttonHeight"
+                    android:background="@color/bgBottomNavigation"
+                    android:text="@string/submit_CS"
+                    android:textColor="@color/textWhite" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>
