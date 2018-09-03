@@ -57,7 +57,8 @@
 
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:src="@drawable/icon_forward" />
+            android:src="@drawable/icon_forward"
+            android:id="@+id/icon_next"/>
 
     </LinearLayout>
 

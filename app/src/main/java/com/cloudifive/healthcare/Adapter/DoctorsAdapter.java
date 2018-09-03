@@ -2,7 +2,9 @@ package com.cloudifive.healthcare.Adapter;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.widget.RecyclerView;
@@ -14,8 +16,11 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.target.BitmapImageViewTarget;
+import com.cloudifive.healthcare.Activity.Doctor_Profile;
 import com.cloudifive.healthcare.Models.Doctors;
 import com.cloudifive.healthcare.R;
+
+import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -56,6 +61,19 @@ public class DoctorsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
                 }
             });
                     //.into(((MyViewHolder) holder).image);
+
+
+            ((MyViewHolder) holder).image_next.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+
+                  Intent intent=new Intent(myCtx,Doctor_Profile.class);
+                  intent.putExtra("doctor",((MyViewHolder) holder).aNameTV.getText().toString());
+                  myCtx.startActivity(intent);
+
+
+                }
+            });
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -73,7 +91,7 @@ public class DoctorsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
 
     class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         TextView aNameTV, aAddrTV;
-        public ImageView image;
+        public ImageView image,image_next;
 
         public MyViewHolder(View itemView) {
             super(itemView);
@@ -81,6 +99,7 @@ public class DoctorsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
                 aNameTV = (TextView) itemView.findViewById(R.id.list_title);
                 aAddrTV = (TextView) itemView.findViewById(R.id.list_desc);
                 image = (ImageView) itemView.findViewById(R.id.image);
+                image_next=(ImageView)itemView.findViewById(R.id.icon_next);
             } catch (Exception e) {
                 e.printStackTrace();
             }

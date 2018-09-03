@@ -44,6 +44,7 @@
     <string name="phone">Phone</string>
     <string name="alternate_phone">Alternate Phone</string>
     <string name="mail">Mail</string>
+    <string name="title_activity_dactor__profile">Doctor Profile</string>
 </resources>
 
 
