@@ -126,9 +126,7 @@ public class DoctorsFragment extends Fragment implements  View.OnClickListener {
 
     }
 
-    /**
-     * Load new jobs lists in Lisview **
-     */
+
     private void createList() {
         try {
 
