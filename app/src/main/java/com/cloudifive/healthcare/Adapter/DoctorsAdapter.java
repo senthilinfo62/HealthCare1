@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.widget.RecyclerView;
@@ -45,7 +46,7 @@ public class DoctorsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
     @Override
     public void onBindViewHolder(final RecyclerView.ViewHolder holder, int position) {
         try {
-            Doctors aItem = myHisJbItem.get(position);
+            final Doctors aItem = myHisJbItem.get(position);
             HashMap<String,Object> myAllData=aItem.getMyAMapData();
             System.out.println("myHashMap"+myAllData.get(""));
             ((MyViewHolder) holder).aNameTV.setText(aItem.getName());
@@ -67,7 +68,18 @@ public class DoctorsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
                 @Override
                 public void onClick(View v) {
 
+
                   Intent intent=new Intent(myCtx,Doctor_Profile.class);
+                  intent.putExtra("img",aItem.getImage());
+                  intent.putExtra("exp",aItem.getExperience());
+                  intent.putExtra("docID",aItem.getAddress1());
+                  intent.putExtra("add",aItem.getAddress());
+                  intent.putExtra("grd",aItem.getGrade());
+                  intent.putExtra("gen",aItem.getGender());
+                  intent.putExtra("email",aItem.getEmail());
+                  intent.putExtra("phone",aItem.getPhone());
+                  intent.putExtra("type",aItem.getType());
+                  intent.putExtra("dec",aItem.getDescription());
                   intent.putExtra("doctor",((MyViewHolder) holder).aNameTV.getText().toString());
                   myCtx.startActivity(intent);
 

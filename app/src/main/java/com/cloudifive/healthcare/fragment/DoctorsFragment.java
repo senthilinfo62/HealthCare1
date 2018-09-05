@@ -160,6 +160,15 @@ public class DoctorsFragment extends Fragment implements  View.OnClickListener {
                                     aItem.setName(name);
                                     aItem.setAddress1(description);
                                     aItem.setImage(image);
+                                    aItem.setDescription(jsonObject.getString("description"));
+                                    aItem.setGrade(jsonObject.getString("grade"));
+                                    aItem.setGender(jsonObject.getString("gender"));
+                                    aItem.setAddress(jsonObject.getString("address"));
+                                    aItem.setPhone(jsonObject.getString("phone"));
+                                    aItem.setEmail(jsonObject.getString("email"));
+                                    aItem.setType(jsonObject.getString("type"));
+                                    aItem.setExperience(jsonObject.getString("experience"));
+                                    aItem.setStatus(jsonObject.getString("status"));
                                     myHisJbLst.add(aItem);
 
                                 }
